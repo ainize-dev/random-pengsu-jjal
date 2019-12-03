@@ -4,36 +4,32 @@
 [![GitHub forks](https://img.shields.io/github/forks/OblivionSan/random-image-api.svg?style=flat-square)](https://github.com/OblivionSan/random-image-api/network)
 [![GitHub issues](https://img.shields.io/github/issues/OblivionSan/random-image-api.svg?style=flat-square)](https://github.com/OblivionSan/random-image-api/issues)
 
-> A simple random-image-api written in PHP.
+> A simple random-pengsu-jjal written in PHP.
+
+**Live Version:** https://endpoint.ainize.ai/laeyoung/pengsu-jjal/
+
+[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.png)](https://ainize-cloud-run.web.app/redirect?git_repo=github.com/Laeyoung/random-pengsu-jjal)
 
 ## Getting started
 
-**Live Version:** https://random-image-api.herokuapp.com/
+1. Clone git repo
 
-```
-$ git clone https://github.com/OblivionSan/random-image-api.git
-```
+`git clone https://github.com/Laeyoung/random-pengsu-jjal.git`
+
+2. Update pengsu-jjal images.
+
+> Img Path: **./assets/images/**
+
+3. Build new docker image
+
+`docker build -t pengsu-jjal .`
+
+4. Run new pengsu-jjal
+
+`docker run -p 8080:80 -d pengsu-jjal`
+
+5. Open [localhost:8080](http://localhost:8080)
 
 
-You can edit/change the api to fit your preference. Do not request me to do it.
-
-> API Path: **./assets/api/ri-api.php**
-
-> Default Img Path: **./assets/images/**
-
-```html
-<?php require_once './assets/api/ri-api.php'; ?> <!-- Request API file. -->
-<img src="<?php echo $path . $img ?>"/> <!-- Displays images. -->
-```
-```php
-$path = './assets/images/'; //Change the img file path if needed.
-```
-## Built with
-> [HTML](http://devdocs.io/html/)
-
-> [CSS](http://devdocs.io/css/)
-
-> [PHP](http://devdocs.io/php/)
-
-## Author
+## Original Repo Author
 - **OblivionSan** - [@OblivionSan](https://twitter.com/OblivionSan) | [Discord Server](https://discord.gg/kxNeGRC) | [Website](https://oblivionsan.tk)
