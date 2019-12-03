@@ -4,7 +4,7 @@
 
 **Live Version:** https://endpoint.ainize.ai/laeyoung/pengsu-jjal/
 
-[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.png)](https://ainize-cloud-run.web.app/redirect?git_repo=github.com/Laeyoung/random-pengsu-jjal)
+[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.png)](https://ainize.web.app/redirect?git_repo=github.com/Laeyoung/random-pengsu-jjal)
 
 ## Getting started
 
