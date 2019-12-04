@@ -4,13 +4,13 @@
 
 **Live Version:** https://endpoint.ainize.ai/laeyoung/pengsu-jjal/
 
-[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.png)](https://ainize.web.app/redirect?git_repo=github.com/Laeyoung/random-pengsu-jjal)
+[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.png)](https://ainize.web.app/redirect?git_repo=github.com/ainize-dev/random-pengsu-jjal)
 
 ## Getting started
 
 #### 1. Clone git repo
 
-`git clone https://github.com/Laeyoung/random-pengsu-jjal.git`
+`git clone https://github.com/ainize-dev/random-pengsu-jjal.git`
 
 #### 2. Update pengsu-jjal images.
 
